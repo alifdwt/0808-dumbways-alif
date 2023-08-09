@@ -72,7 +72,7 @@ main .form .form-container {
     width: 100%;
 }
 
-#name, #email, #phone, #subject, #message {
+#input-name, #input-email, #input-phone, #select-subject, #input-message {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -97,4 +97,10 @@ form label {
 .btn button:hover {
     background-color: whitesmoke;
     color: #fd4e2f;
+}
+
+.btn button:disabled {
+    background-color: grey;
+    color: whitesmoke;
+    cursor: default;
 }
